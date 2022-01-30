@@ -1,0 +1,76 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Guess Number</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+
+  <body>
+    <div class="jumbotron">
+      <h1 class="text-center">Guess The Number</h1>
+      <h2 class="text-center mt-5 text-dark">
+        Guess what number the computer is thinking of &hearts;
+      </h2>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card mb-2">
+            <h3 class="card-header">Computer Pick:</h3>
+
+            <div class="card-body text-center">
+              <h1 id="computer-pick">???</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card mb-2">
+            <h3 class="card-header">Your Pick:</h3>
+
+            <div class="card-body text-center">
+              <button id="button-1" class="btn btn-danger btn-choice" value="1">
+                <h1>1</h1>
+              </button>
+              <button id="button-2" class="btn btn-danger btn-choice" value="2">
+                <h1>2</h1>
+              </button>
+              <button id="button-3" class="btn btn-danger btn-choice" value="3">
+                <h1>3</h1>
+              </button>
+              <button id="button-4" class="btn btn-danger btn-choice" value="4">
+                <h1>4</h1>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card mb-2">
+            <h3 class="card-header">Result</h3>
+
+            <div class="card-body text-center">
+              <h1 id="result"></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./JS/script.js"></script>
+  </body>
+</html>

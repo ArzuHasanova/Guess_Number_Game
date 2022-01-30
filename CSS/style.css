@@ -1,0 +1,21 @@
+body {
+  background-color: hotpink;
+}
+
+.jumbotron {
+  background-image: linear-gradient(#221d2c94, pink);
+}
+
+h3 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.row {
+  color: #747114;
+  padding: 15px 5px 3px 10px;
+}
+
+.container {
+  color: lightblue;
+}
